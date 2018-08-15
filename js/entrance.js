@@ -16,7 +16,7 @@ var JSobject = anime({
 var myVar;
 
 function myFunction() {
-    myVar = setTimeout(showPage, 3000);
+    myVar = setTimeout(showPage, 2000);
 }
 
 function showPage() {
@@ -28,7 +28,7 @@ function showPage() {
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.body.style.backgroundColor = "rgb(17,75,65)";
 }
 
 function closeNav() {

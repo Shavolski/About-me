@@ -8,32 +8,63 @@
   </head>
   <body onload="myFunction()" style="margin:0;">
 <!-- Loader -->
-    <div id="loader">
-      <div id="JSobject">
-        <pre>{"Load":"100%"}</pre>
-      </div>
-    </div>
+<div id="loader">
+  <div id="JSobject">
+    <pre>{"Load":"100%"}</pre>
+  </div>
+</div>
 <!-- Things to display after the loader-->
-    <div style="display:none;" id="myDiv" class="animate-bottom">
-      <div>
-        <div class="container">
-          <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-          </div>
-
-          <div id="main">
-            <h2>Sidenav Push Example</h2>
-            <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-          </div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!-- Content displayed -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="biggerme">
+      <div class="me">
+        <img src="css/me.jpg">
+      </div>
+      <p>Want to build something together?:) <br><br><br> Please do contact via:</p>
+      <div class="info">
+        <img src="css/call.png">
+      </div>
+      <p>+254714091244</p>
+      <div class="info">
+        <img src="css/email.png">
+      </div>
+      <p href="https://stevewachiradev@gmail.com" class="email">stevewachiradev@gmail.com</p>
+      <div class="info">
+        <img src="css/li.png">
+      </div>
+      <p href="https://www.linkedin.com/in/steve-wachira-dev">www.linkedin.com/in/steve-wachira-dev</p>
+    </div>
+  </div>
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <h2>Sidenav Push Example</h2>
+    <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
+    <p>Some text in my newly loaded page..</p>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>About me:)</h2>
+          <p>Lorem ipsum.</p>
         </div>
       </div>
-      <p>Some text in my newly loaded page..</p>
+      <div class="container right">
+        <div class="content">
+          <h2>Skills</h2>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>Projects</h2>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- end of Content -->
+</div>
 
 
     <!-- JS files  -->
