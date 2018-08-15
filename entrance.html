@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve Wachira</title>
     <link rel="stylesheet" href="css/entrance.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   </head>
   <body onload="myFunction()" style="margin:0;">
 <!-- Loader -->
@@ -14,13 +15,30 @@
     </div>
 <!-- Things to display after the loader-->
     <div style="display:none;" id="myDiv" class="animate-bottom">
-      <h2>Tada!</h2>
+      <div>
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div id="main">
+            <h2>Sidenav Push Example</h2>
+            <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+          </div>
+        </div>
+      </div>
       <p>Some text in my newly loaded page..</p>
     </div>
 
 
     <!-- JS files  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="js/anime.min.js"></script>
     <script src="js/anime.js"></script>
     <script src="js/entrance.js"></script>
