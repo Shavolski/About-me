@@ -22,48 +22,120 @@
       <div class="me">
         <img src="css/me.jpg">
       </div>
-      <p>Want to build something together?:) <br><br><br> Please do contact via:</p>
+      <p>Want to build something together?:) <br><br><br> Please do contact me via:</p>
       <div class="info">
-        <img src="css/call.png">
+        <p>Phone Call</p>
       </div>
       <p>+254714091244</p>
       <div class="info">
-        <img src="css/email.png">
+        <p>Email</p>
       </div>
-      <p href="https://stevewachiradev@gmail.com" class="email">stevewachiradev@gmail.com</p>
+      <a href="https://stevewachiradev@gmail.com" class="email">stevewachiradev@gmail.com</a>
       <div class="info">
-        <img src="css/li.png">
+        <p>Linkedin</p>
       </div>
-      <p href="https://www.linkedin.com/in/steve-wachira-dev">www.linkedin.com/in/steve-wachira-dev</p>
+      <a href="https://www.linkedin.com/in/steve-wachira-dev" class="email">www.linkedin.com/in/steve-wachira-dev</a>
     </div>
   </div>
   <div id="main">
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-    <h2>Sidenav Push Example</h2>
-    <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
-    <p>Some text in my newly loaded page..</p>
-    <div class="timeline">
-      <div class="container left">
-        <div class="content">
-          <h2>About me:)</h2>
-          <p>Lorem ipsum.</p>
+    <h2>Steve Marvins Gitau Wachira</h2>
+    <!-- Introduction to skills -->
+
+
+    <!-- Introduction to skills -->
+    <div class="col">
+      <button class="btn draw-border" onclick="typeWriter()">About me:)</button>
+      <p id="demo"></p>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="col">
+        <button class="btn draw-border" onclick="dropdown()" data-toggle="modal" data-target="#myModal">Skills</button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <ul>
+                  <li>Python</li>
+                  <li>JavaScript</li>
+                  <li>C#</li>
+                  <li>Django</li>
+                  <li>Angular</li>
+                  <li>Visual Script</li>
+                  <li>Unity/Unreal Game Engnie 4</li>
+                  <li>Adobe PhotoShop/Illustrator</li>
+                  <li>HTML/CSS</li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="container right">
-        <div class="content">
-          <h2>Skills</h2>
-          <p>Lorem ipsum</p>
+    </div>
+    <div class="grid-item">
+      <div class="col">
+        <button class="btn draw-border" onclick="dropdown()" data-toggle="modal" data-target="#myModal2">Hobbies</button>
+        <div class="modal fade" id="myModal2" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <ul>
+                  <li>Astronomy Enthusiast - Take part in transit hunting using NASA’s Kepler Telescope data.</li>
+                  <li>Game Enthusiast - Built a game called Meraki as the final project before graduation at Moringa School.</li>
+                  <li>Languages - English (expert), Swahili (expert), Japanese level N5.</li>
+                  <li>Anime Intellectual- Posing the philosophical, psychological aspect in anime stories that showcases moral questions.</li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="container left">
-        <div class="content">
-          <h2>Projects</h2>
-          <p>Lorem ipsum</p>
+    </div>
+    <div class="grid-item">
+      <div class="col">
+        <button class="btn draw-border" onclick="dropdown()" data-toggle="modal" data-target="#myModal3">Languages</button>
+        <div class="modal fade" id="myModal3" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <ul>
+                  <li>English (Professional)</li>
+                  <li>Kiswahili (Native)</li>
+                  <li>Japanese (N5)</li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="col">
+        <button class="btn draw-border" onclick="dropdown()" data-toggle="modal" data-target="#myModal4">Projects</button>
+        <div class="modal fade" id="myModal4" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <ul>
+                  <li><a href="https://github.com/Shavolski/Meraki" class="email">Meraki</a></li>
+                  <li><a href="https://github.com/Shavolski/Instagram-Clone" class="email">GremGram</a></li>
+                </ul>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- end of Content -->
+
 </div>
 
 

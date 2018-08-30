@@ -36,3 +36,16 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
     document.body.style.backgroundColor = "white";
 }
+
+//Text js
+var i = 0;
+var txt = 'Hey there my name is Steve Wachira, an ambitious FullStack Developer (from Moringa School) I like coding to create interesting websites like this one:) I am dedicated to my work because I believe that your personality is shown by the work you do, during recreation activities, I like cooking and playing video games. so without talking much please do click on the Skills button to see my abilities:)';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
