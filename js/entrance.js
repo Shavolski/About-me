@@ -39,7 +39,7 @@ function closeNav() {
 
 //Text js
 var i = 0;
-var txt = 'Hey there my name is Steve Wachira, an ambitious FullStack Developer (from Moringa School) I like coding to create interesting websites like this one:) I am dedicated to my work because I believe that your personality is shown by the work you do, during recreation activities, I like cooking and playing video games. so without talking much please do click on the Skills button to see my abilities:)';
+var txt = '<div class="col"> <button class="btn draw-border" onclick="typeWriter()">About me:)</button> <p id="demo"></p> </div> ';
 var speed = 50;
 
 function typeWriter() {
